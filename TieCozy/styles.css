@@ -1,0 +1,130 @@
+body {
+  margin: 0;
+  background-color: black;
+}
+* {
+  box-sizing: border-box;
+  font-family: Helvetica, sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  padding: 0;
+  color: seashell;
+  text-align: center;
+  opacity: 0, 9;
+}
+.headerContainer {
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  padding: 10px;
+  background-color: black;
+  border-bottom: 1px solid seashell;
+  z-index: 1;
+}
+.headerContainer ul {
+  display: flex;
+  gap: 20px;
+}
+.headerContainer li {
+  list-style-type: none;
+}
+.heroImageSection {
+  display: flex;
+  align-items: center;
+  background-image: url("./images/img-mission-background.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  max-width: 1200px;
+  height: 700px;
+  margin: 0 auto;
+}
+.textContainer {
+  background-color: black;
+  width: 100%;
+  opacity: 1;
+  height: 100px;
+}
+.textContainer h2 {
+  font-size: 1.5rem;
+  font: bolder;
+  margin-top: 5px;
+}
+.textContainer h4 {
+  font-size: 0.8rem;
+  margin-bottom: 5px;
+}
+.teaSection {
+  max-width: 1000px;
+  margin: 80px auto;
+}
+.teaSection h2 {
+  font-size: 1.3rem;
+  font-weight: bolder;
+}
+.teaPhotosContainer {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.teaCard p {
+  margin: 10px;
+}
+.locationSection {
+  background-image: url("./images/img-locations-background.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  max-width: 1200px;
+  height: 500px;
+  margin: 0 auto;
+  padding: 50px;
+}
+.addressCardsContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  opacity: 1;
+}
+.locationSection h2 {
+  font-size: 1.3rem;
+  font-weight: bolder;
+  margin-bottom: 15px;
+}
+.addressCardsContainer .addressCard {
+  opacity: 1;
+  margin-top: 10px;
+}
+.addressCard {
+  width: 300px;
+  background-color: black;
+}
+.addressCard h3,
+.addressCard p {
+  padding: 10px;
+}
+.contactContainer {
+  height: 200px;
+}
+.contactContainer h2 {
+  font-size: 1.3rem;
+  font-weight: bolder;
+  margin-bottom: 50px;
+}
+.contactContainer h5 {
+  font-size: 0.8rem;
+}
+.footerSection {
+  margin: 0 20px;
+}
+.footerSection p {
+  text-align: left;
+  font-size: 0.7rem;
+}
